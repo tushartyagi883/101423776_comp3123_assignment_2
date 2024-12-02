@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // MongoDB Atlas Connection
-mongoose.connect("mongodb+srv://rusty15899:Prachi_15899@cluster0.hstwu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://Tushar123:tushar_123@cluster0.hstwu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("Connected to MongoDB"))
   .catch(err => console.error("MongoDB connection error:", err));
 
